@@ -33,7 +33,7 @@ import (
 
 	scheduler "go.ligato.io/vpp-agent/v3/plugins/kvscheduler/api"
 
-	"github.com/contiv/vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/controller/api"
 )
 
 const (

@@ -15,7 +15,7 @@
 package endpoints
 
 import (
-	"github.com/contiv/vpp/plugins/ksr/model/ksrkey"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/ksrkey"
 )
 
 const (

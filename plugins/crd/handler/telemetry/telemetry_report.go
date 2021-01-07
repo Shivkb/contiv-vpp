@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
 
 	"k8s.io/apimachinery/pkg/util/runtime"
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sCache "k8s.io/client-go/tools/cache"
 
-	"github.com/contiv/vpp/plugins/crd/api"
-	v1 "github.com/contiv/vpp/plugins/crd/pkg/apis/telemetry/v1"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/api"
+	v1 "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/apis/telemetry/v1"
 	"go.ligato.io/cn-infra/v2/logging"
 
-	crdClientSet "github.com/contiv/vpp/plugins/crd/pkg/client/clientset/versioned"
-	listers "github.com/contiv/vpp/plugins/crd/pkg/client/listers/telemetry/v1"
+	crdClientSet "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/client/clientset/versioned"
+	listers "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/client/listers/telemetry/v1"
 )
 
 //CRDReport implements generation of reports to CRD

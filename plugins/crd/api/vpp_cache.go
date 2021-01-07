@@ -17,8 +17,8 @@ package api
 import (
 	"go.ligato.io/cn-infra/v2/health/statuscheck/model/status"
 
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
-	"github.com/contiv/vpp/plugins/ipnet/restapi"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet/restapi"
 )
 
 const (

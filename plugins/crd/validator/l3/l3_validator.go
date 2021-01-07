@@ -27,10 +27,10 @@ import (
 
 	vpp_l3 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l3"
 
-	"github.com/contiv/vpp/plugins/crd/api"
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
-	"github.com/contiv/vpp/plugins/crd/validator/utils"
-	"github.com/contiv/vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/api"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/validator/utils"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
 )
 
 const (

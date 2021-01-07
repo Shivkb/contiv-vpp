@@ -1,4 +1,4 @@
-module github.com/contiv/vpp
+module github.com/Shivkb/contiv-vpp
 
 go 1.13
 
@@ -20,6 +20,8 @@ require (
 	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/gorilla/mux v1.7.1 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect
+	github.com/ligato/cn-infra v2.2.0+incompatible // indirect
+	github.com/ligato/vpp-agent v2.5.1+incompatible // indirect
 	github.com/namsral/flag v1.7.4-pre
 	github.com/onsi/gomega v1.7.0
 	github.com/pkg/errors v0.9.1

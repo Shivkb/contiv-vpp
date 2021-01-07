@@ -17,8 +17,8 @@
 package cache
 
 import (
-	policymodel "github.com/contiv/vpp/plugins/ksr/model/policy"
-	"github.com/contiv/vpp/plugins/policy/utils"
+	policymodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/policy"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/utils"
 )
 
 const (

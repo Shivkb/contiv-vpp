@@ -17,8 +17,8 @@ package testdata
 import (
 	"net"
 
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/policy/renderer"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
 )
 
 const (

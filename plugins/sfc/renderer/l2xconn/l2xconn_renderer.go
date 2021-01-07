@@ -25,15 +25,15 @@ import (
 	vpp_interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 	vpp_l2 "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l2"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/idalloc"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/sfc/config"
-	"github.com/contiv/vpp/plugins/sfc/renderer"
-	"github.com/contiv/vpp/plugins/statscollector"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/idalloc"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/sfc/config"
+	"github.com/Shivkb/contiv-vpp/plugins/sfc/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/statscollector"
 )
 
 // Renderer implements L2 cross-connect -based rendering of SFC in Contiv-VPP.

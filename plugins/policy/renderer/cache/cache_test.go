@@ -26,10 +26,10 @@ import (
 	"go.ligato.io/cn-infra/v2/logging"
 	"go.ligato.io/cn-infra/v2/logging/logrus"
 
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/policy/renderer"
-	. "github.com/contiv/vpp/plugins/policy/renderer/testdata"
-	. "github.com/contiv/vpp/plugins/policy/utils"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
+	. "github.com/Shivkb/contiv-vpp/plugins/policy/renderer/testdata"
+	. "github.com/Shivkb/contiv-vpp/plugins/policy/utils"
 )
 
 var (

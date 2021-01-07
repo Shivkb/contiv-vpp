@@ -12,9 +12,9 @@ import (
 	linuxclient "go.ligato.io/vpp-agent/v3/clientv2/linux"
 	vppclient "go.ligato.io/vpp-agent/v3/clientv2/vpp"
 
-	mockcontroller "github.com/contiv/vpp/mock/localclient/controller"
-	mocklinux "github.com/contiv/vpp/mock/localclient/dsl/linux"
-	mockvpp "github.com/contiv/vpp/mock/localclient/dsl/vpp"
+	mockcontroller "github.com/Shivkb/contiv-vpp/mock/localclient/controller"
+	mocklinux "github.com/Shivkb/contiv-vpp/mock/localclient/dsl/linux"
+	mockvpp "github.com/Shivkb/contiv-vpp/mock/localclient/dsl/vpp"
 )
 
 // TxnTracker tracks all transactions executed or pending in the mock localclient.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/contiv/vpp/plugins/netctl/cmdimpl"
-	"github.com/contiv/vpp/plugins/netctl/remote"
+	"github.com/Shivkb/contiv-vpp/plugins/netctl/cmdimpl"
+	"github.com/Shivkb/contiv-vpp/plugins/netctl/remote"
 	"github.com/spf13/cobra"
 	"go.ligato.io/cn-infra/v2/db/keyval/etcd"
 )

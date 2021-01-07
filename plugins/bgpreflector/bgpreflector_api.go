@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	controller "github.com/contiv/vpp/plugins/controller/api"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
 )
 
 /*************************** BGP Route Update Event ***************************/

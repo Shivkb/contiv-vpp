@@ -17,7 +17,7 @@ package telemetrymodel
 import (
 	"github.com/golang/protobuf/jsonpb"
 
-	"github.com/contiv/vpp/plugins/ipnet/restapi"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet/restapi"
 	"github.com/golang/protobuf/proto"
 	"go.ligato.io/cn-infra/v2/health/statuscheck/model/status"
 

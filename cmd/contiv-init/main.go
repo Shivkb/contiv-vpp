@@ -36,12 +36,12 @@ import (
 	"go.ligato.io/cn-infra/v2/logging/logrus"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
-	"github.com/contiv/vpp/cmd/contiv-stn/model/stn"
-	"github.com/contiv/vpp/pkg/pci"
-	"github.com/contiv/vpp/plugins/contivconf"
-	"github.com/contiv/vpp/plugins/controller"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/nodesync/vppnode"
+	"github.com/Shivkb/contiv-vpp/cmd/contiv-stn/model/stn"
+	"github.com/Shivkb/contiv-vpp/pkg/pci"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	"github.com/Shivkb/contiv-vpp/plugins/controller"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync/vppnode"
 )
 
 const (

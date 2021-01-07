@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
 )
 
 // API defines methods provided by NodeSync for use by other plugins.

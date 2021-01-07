@@ -32,8 +32,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/contiv/vpp/cmd/contiv-stn/model/stn"
-	"github.com/contiv/vpp/pkg/pci"
+	"github.com/Shivkb/contiv-vpp/cmd/contiv-stn/model/stn"
+	"github.com/Shivkb/contiv-vpp/pkg/pci"
 	"path/filepath"
 )
 

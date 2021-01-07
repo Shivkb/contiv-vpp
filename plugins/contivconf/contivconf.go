@@ -38,12 +38,12 @@ import (
 	vpp_interfaces "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/interfaces"
 
 	"github.com/apparentlymart/go-cidr/cidr"
-	stn_grpc "github.com/contiv/vpp/cmd/contiv-stn/model/stn"
-	"github.com/contiv/vpp/plugins/contivconf/config"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	nodeconfig "github.com/contiv/vpp/plugins/crd/handler/nodeconfig/model"
-	nodeconfigcrd "github.com/contiv/vpp/plugins/crd/pkg/apis/nodeconfig/v1"
-	"github.com/contiv/vpp/plugins/ksr"
+	stn_grpc "github.com/Shivkb/contiv-vpp/cmd/contiv-stn/model/stn"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf/config"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	nodeconfig "github.com/Shivkb/contiv-vpp/plugins/crd/handler/nodeconfig/model"
+	nodeconfigcrd "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/apis/nodeconfig/v1"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr"
 )
 
 // NodeToNodeTransport configuration values enum

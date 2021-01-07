@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipnet"
-	"github.com/contiv/vpp/plugins/podmanager"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
 	"github.com/golang/protobuf/proto"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

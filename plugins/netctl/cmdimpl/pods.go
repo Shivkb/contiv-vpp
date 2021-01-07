@@ -25,12 +25,12 @@ import (
 	"go.ligato.io/cn-infra/v2/db/keyval/etcd"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
-	"github.com/contiv/vpp/plugins/ipnet/restapi"
-	"github.com/contiv/vpp/plugins/ksr"
-	"github.com/contiv/vpp/plugins/ksr/model/node"
-	"github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/netctl/remote"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet/restapi"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/node"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/netctl/remote"
 	"go.ligato.io/vpp-agent/v3/plugins/restapi/resturl"
 
 	vppif "go.ligato.io/vpp-agent/v3/plugins/vpp/ifplugin/vppcalls"

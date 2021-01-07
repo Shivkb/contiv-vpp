@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/contiv/vpp/mock/localclient"
+	"github.com/Shivkb/contiv-vpp/mock/localclient"
 	"go.ligato.io/cn-infra/v2/datasync/syncbase"
 )
 

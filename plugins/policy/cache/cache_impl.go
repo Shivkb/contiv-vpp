@@ -3,14 +3,14 @@ package cache
 import (
 	"go.ligato.io/cn-infra/v2/logging"
 
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	nsmodel "github.com/contiv/vpp/plugins/ksr/model/namespace"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	policymodel "github.com/contiv/vpp/plugins/ksr/model/policy"
-	"github.com/contiv/vpp/plugins/policy/cache/namespaceidx"
-	"github.com/contiv/vpp/plugins/policy/cache/podidx"
-	"github.com/contiv/vpp/plugins/policy/cache/policyidx"
-	"github.com/contiv/vpp/plugins/policy/utils"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	nsmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/namespace"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	policymodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/policy"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/cache/namespaceidx"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/cache/podidx"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/cache/policyidx"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/utils"
 )
 
 // PolicyCache s used for a in-memory storage of K8s State data with fast

@@ -25,10 +25,10 @@ import (
 
 	"go.ligato.io/cn-infra/v2/logging"
 
-	"github.com/contiv/vpp/mock/localclient"
-	"github.com/contiv/vpp/plugins/ipnet"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/policy/renderer"
+	"github.com/Shivkb/contiv-vpp/mock/localclient"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
 	"go.ligato.io/cn-infra/v2/datasync/syncbase"
 	vpp_acl "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/acl"
 )

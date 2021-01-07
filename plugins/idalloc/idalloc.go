@@ -25,11 +25,11 @@ import (
 	"go.ligato.io/cn-infra/v2/infra"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/idalloc/idallocation"
-	"github.com/contiv/vpp/plugins/ksr"
-	"github.com/contiv/vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/idalloc/idallocation"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
 )
 
 const (

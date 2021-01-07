@@ -22,9 +22,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	. "github.com/contiv/vpp/mock/datasync"
-	. "github.com/contiv/vpp/mock/nodesync"
-	. "github.com/contiv/vpp/mock/servicelabel"
+	. "github.com/Shivkb/contiv-vpp/mock/datasync"
+	. "github.com/Shivkb/contiv-vpp/mock/nodesync"
+	. "github.com/Shivkb/contiv-vpp/mock/servicelabel"
 
 	"go.ligato.io/cn-infra/v2/infra"
 	"go.ligato.io/cn-infra/v2/logging"
@@ -32,11 +32,11 @@ import (
 
 	"bytes"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	"github.com/contiv/vpp/plugins/contivconf/config"
-	nodeconfigcrd "github.com/contiv/vpp/plugins/crd/pkg/apis/nodeconfig/v1"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf/config"
+	nodeconfigcrd "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/apis/nodeconfig/v1"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
 )
 
 //TODO maybe check multiple hosts IPAMs for no interconnection between them and that hostID is not hardwired

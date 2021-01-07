@@ -15,7 +15,7 @@
 package config
 
 import (
-	nodeconfigcrd "github.com/contiv/vpp/plugins/crd/pkg/apis/nodeconfig/v1"
+	nodeconfigcrd "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/apis/nodeconfig/v1"
 )
 
 // Config represents configuration for the Contiv agent.

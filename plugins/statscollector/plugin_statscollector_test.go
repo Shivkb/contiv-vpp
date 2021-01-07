@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/contiv/vpp/mock/ipnet"
-	"github.com/contiv/vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/mock/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
 	"github.com/onsi/gomega"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

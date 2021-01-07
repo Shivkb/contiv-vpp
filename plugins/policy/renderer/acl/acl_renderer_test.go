@@ -28,16 +28,16 @@ import (
 	scheduler "go.ligato.io/vpp-agent/v3/plugins/kvscheduler/api"
 	vpp_acl "go.ligato.io/vpp-agent/v3/proto/ligato/vpp/acl"
 
-	. "github.com/contiv/vpp/mock/aclengine"
-	. "github.com/contiv/vpp/mock/ipnet"
-	"github.com/contiv/vpp/mock/localclient"
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipnet"
-	"github.com/contiv/vpp/plugins/policy/renderer"
-	"github.com/contiv/vpp/plugins/policy/renderer/cache"
-	. "github.com/contiv/vpp/plugins/policy/renderer/testdata"
-	. "github.com/contiv/vpp/plugins/policy/utils"
+	. "github.com/Shivkb/contiv-vpp/mock/aclengine"
+	. "github.com/Shivkb/contiv-vpp/mock/ipnet"
+	"github.com/Shivkb/contiv-vpp/mock/localclient"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer/cache"
+	. "github.com/Shivkb/contiv-vpp/plugins/policy/renderer/testdata"
+	. "github.com/Shivkb/contiv-vpp/plugins/policy/utils"
 )
 
 const (

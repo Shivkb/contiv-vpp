@@ -19,21 +19,21 @@ package processor
 import (
 	"strings"
 
-	"github.com/contiv/vpp/plugins/ipam/ipalloc"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam/ipalloc"
 
 	"go.ligato.io/cn-infra/v2/logging"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	epmodel "github.com/contiv/vpp/plugins/ksr/model/endpoints"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	svcmodel "github.com/contiv/vpp/plugins/ksr/model/service"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/podmanager"
-	"github.com/contiv/vpp/plugins/service/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	epmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/endpoints"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	svcmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/service"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer"
 )
 
 const (

@@ -17,13 +17,13 @@ package iptables
 import (
 	"fmt"
 
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/podmanager"
-	"github.com/contiv/vpp/plugins/policy/renderer"
-	"github.com/contiv/vpp/plugins/policy/renderer/cache"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer/cache"
 	"github.com/golang/protobuf/proto"
 	"go.ligato.io/cn-infra/v2/logging"
 

@@ -34,11 +34,11 @@ import (
 	vppl2descr "go.ligato.io/vpp-agent/v3/plugins/vpp/l2plugin/descriptor"
 	vppl3descr "go.ligato.io/vpp-agent/v3/plugins/vpp/l3plugin/descriptor"
 
-	"github.com/contiv/vpp/plugins/crd/api"
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
-	"github.com/contiv/vpp/plugins/crd/datastore"
-	"github.com/contiv/vpp/plugins/ipnet/restapi"
-	nodemodel "github.com/contiv/vpp/plugins/ksr/model/node"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/api"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/datastore"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet/restapi"
+	nodemodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/node"
 )
 
 const (

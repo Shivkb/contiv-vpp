@@ -1,11 +1,11 @@
 package policycache
 
 import (
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	nsmodel "github.com/contiv/vpp/plugins/ksr/model/namespace"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	policymodel "github.com/contiv/vpp/plugins/ksr/model/policy"
-	"github.com/contiv/vpp/plugins/policy/cache"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	nsmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/namespace"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	policymodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/policy"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/cache"
 )
 
 // MockPolicyCache is mock for PolicyCache that only provides fake implementation

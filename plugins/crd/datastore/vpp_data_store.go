@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
-	"github.com/contiv/vpp/plugins/ipnet"
-	"github.com/contiv/vpp/plugins/ipnet/restapi"
+	"github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet/restapi"
 	"go.ligato.io/cn-infra/v2/health/statuscheck/model/status"
 )
 

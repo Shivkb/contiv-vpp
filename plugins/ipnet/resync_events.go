@@ -17,11 +17,11 @@ package ipnet
 import (
 	"net"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	customnetmodel "github.com/contiv/vpp/plugins/crd/handler/customnetwork/model"
-	extifmodel "github.com/contiv/vpp/plugins/crd/handler/externalinterface/model"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	customnetmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/customnetwork/model"
+	extifmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/externalinterface/model"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
 
 	"go.ligato.io/vpp-agent/v3/proto/ligato/linux/l3"
 	"go.ligato.io/vpp-agent/v3/proto/ligato/vpp/l3"

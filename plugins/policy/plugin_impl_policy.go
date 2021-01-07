@@ -17,19 +17,19 @@ package policy
 import (
 	"go.ligato.io/cn-infra/v2/infra"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	"github.com/contiv/vpp/plugins/ksr/model/namespace"
-	"github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/ksr/model/policy"
-	"github.com/contiv/vpp/plugins/podmanager"
-	"github.com/contiv/vpp/plugins/policy/cache"
-	"github.com/contiv/vpp/plugins/policy/configurator"
-	"github.com/contiv/vpp/plugins/policy/processor"
-	"github.com/contiv/vpp/plugins/policy/renderer/acl"
-	"github.com/contiv/vpp/plugins/policy/renderer/iptables"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/namespace"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/policy"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/cache"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/configurator"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/processor"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer/acl"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/renderer/iptables"
 )
 
 // Plugin watches configuration of K8s resources (as reflected by KSR into ETCD)

@@ -32,17 +32,17 @@ import (
 	linux_nsplugin "go.ligato.io/vpp-agent/v3/plugins/linux/nsplugin"
 	vpp_ifplugin "go.ligato.io/vpp-agent/v3/plugins/vpp/ifplugin"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	customnetmodel "github.com/contiv/vpp/plugins/crd/handler/customnetwork/model"
-	extifmodel "github.com/contiv/vpp/plugins/crd/handler/externalinterface/model"
-	"github.com/contiv/vpp/plugins/devicemanager"
-	"github.com/contiv/vpp/plugins/idalloc"
-	"github.com/contiv/vpp/plugins/idalloc/idallocation"
-	"github.com/contiv/vpp/plugins/ipam"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	customnetmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/customnetwork/model"
+	extifmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/externalinterface/model"
+	"github.com/Shivkb/contiv-vpp/plugins/devicemanager"
+	"github.com/Shivkb/contiv-vpp/plugins/idalloc"
+	"github.com/Shivkb/contiv-vpp/plugins/idalloc/idallocation"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
 )
 
 const (

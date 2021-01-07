@@ -25,12 +25,12 @@ import (
 	"go.ligato.io/cn-infra/v2/logging"
 	"go.ligato.io/cn-infra/v2/logging/logrus"
 
-	. "github.com/contiv/vpp/mock/policycache"
-	. "github.com/contiv/vpp/mock/renderer"
+	. "github.com/Shivkb/contiv-vpp/mock/policycache"
+	. "github.com/Shivkb/contiv-vpp/mock/renderer"
 
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	policymodel "github.com/contiv/vpp/plugins/ksr/model/policy"
-	rendererAPI "github.com/contiv/vpp/plugins/policy/renderer"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	policymodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/policy"
+	rendererAPI "github.com/Shivkb/contiv-vpp/plugins/policy/renderer"
 )
 
 const (

@@ -31,9 +31,9 @@ import (
 
 	"go.ligato.io/vpp-agent/v3/plugins/orchestrator"
 
-	"github.com/contiv/vpp/dbresources"
-	"github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ksr"
+	"github.com/Shivkb/contiv-vpp/dbresources"
+	"github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr"
 )
 
 const (

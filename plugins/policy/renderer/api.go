@@ -21,8 +21,8 @@ import (
 	"net"
 	"strconv"
 
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/policy/utils"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/policy/utils"
 )
 
 // PolicyRendererAPI defines the API of Policy Renderer.

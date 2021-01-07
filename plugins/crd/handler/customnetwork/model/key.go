@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/contiv/vpp/plugins/ksr/model/ksrkey"
+import "github.com/Shivkb/contiv-vpp/plugins/ksr/model/ksrkey"
 
 // Keyword defines the keyword identifying CustomNetwork data.
 const Keyword = "customnetwork"

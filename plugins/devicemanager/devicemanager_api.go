@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
 )
 
 /********************************* Plugin API *********************************/

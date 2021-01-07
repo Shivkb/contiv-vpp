@@ -21,11 +21,11 @@ import (
 
 	"go.ligato.io/cn-infra/v2/logging"
 
-	"github.com/contiv/vpp/plugins/ipnet"
-	epmodel "github.com/contiv/vpp/plugins/ksr/model/endpoints"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	svcmodel "github.com/contiv/vpp/plugins/ksr/model/service"
-	"github.com/contiv/vpp/plugins/service/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	epmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/endpoints"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	svcmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/service"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer"
 )
 
 // Service is used to combine data from the service model with the endpoints.

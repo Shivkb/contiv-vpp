@@ -9,7 +9,7 @@ import (
 
 	cnisb "github.com/containernetworking/cni/pkg/types/current"
 	"github.com/containernetworking/plugins/pkg/ipam"
-	nodemodel "github.com/contiv/vpp/plugins/ksr/model/node"
+	nodemodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/node"
 	log "github.com/sirupsen/logrus"
 	"go.ligato.io/cn-infra/v2/db/keyval"
 	"go.ligato.io/cn-infra/v2/db/keyval/etcd"

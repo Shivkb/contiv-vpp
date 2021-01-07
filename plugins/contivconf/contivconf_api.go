@@ -16,9 +16,9 @@ import (
 	"fmt"
 	"net"
 
-	stn_grpc "github.com/contiv/vpp/cmd/contiv-stn/model/stn"
-	"github.com/contiv/vpp/plugins/contivconf/config"
-	controller "github.com/contiv/vpp/plugins/controller/api"
+	stn_grpc "github.com/Shivkb/contiv-vpp/cmd/contiv-stn/model/stn"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf/config"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
 )
 
 /********************************* Plugin API *********************************/

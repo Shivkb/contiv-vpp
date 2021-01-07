@@ -17,8 +17,8 @@
 package nodeconfig
 
 import (
-	internalinterfaces "github.com/contiv/vpp/plugins/crd/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/contiv/vpp/plugins/crd/pkg/client/informers/externalversions/nodeconfig/v1"
+	internalinterfaces "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/Shivkb/contiv-vpp/plugins/crd/pkg/client/informers/externalversions/nodeconfig/v1"
 )
 
 // Interface provides access to each of this group's versions.

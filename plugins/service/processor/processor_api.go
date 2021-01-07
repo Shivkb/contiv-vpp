@@ -17,7 +17,7 @@
 package processor
 
 import (
-	"github.com/contiv/vpp/plugins/service/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer"
 	"go.ligato.io/cn-infra/v2/datasync"
 )
 

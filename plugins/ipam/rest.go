@@ -15,7 +15,7 @@
 package ipam
 
 import (
-	"github.com/contiv/vpp/plugins/ipam/restapi"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam/restapi"
 	"github.com/unrolled/render"
 	"net/http"
 )

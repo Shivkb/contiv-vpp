@@ -18,7 +18,7 @@ import (
 	"github.com/go-errors/errors"
 
 	"github.com/apparentlymart/go-cidr/cidr"
-	"github.com/contiv/vpp/plugins/contivconf"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
 )
 
 // dissectContivCIDR splits one big ContivCIDR into smaller disjoint subnets,

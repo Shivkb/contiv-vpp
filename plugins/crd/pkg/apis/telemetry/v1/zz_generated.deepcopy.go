@@ -19,7 +19,7 @@
 package v1
 
 import (
-	telemetrymodel "github.com/contiv/vpp/plugins/crd/cache/telemetrymodel"
+	telemetrymodel "github.com/Shivkb/contiv-vpp/plugins/crd/cache/telemetrymodel"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 )
 

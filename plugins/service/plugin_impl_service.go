@@ -18,27 +18,27 @@ import (
 	"strings"
 
 	"git.fd.io/govpp.git/api"
-	"github.com/contiv/vpp/plugins/ipam/ipalloc"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam/ipalloc"
 
-	"github.com/contiv/vpp/plugins/statscollector"
+	"github.com/Shivkb/contiv-vpp/plugins/statscollector"
 	"go.ligato.io/cn-infra/v2/infra"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
 	"go.ligato.io/vpp-agent/v3/plugins/govppmux"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	epmodel "github.com/contiv/vpp/plugins/ksr/model/endpoints"
-	svcmodel "github.com/contiv/vpp/plugins/ksr/model/service"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/podmanager"
-	"github.com/contiv/vpp/plugins/service/config"
-	"github.com/contiv/vpp/plugins/service/processor"
-	"github.com/contiv/vpp/plugins/service/renderer/ipv6route"
-	"github.com/contiv/vpp/plugins/service/renderer/nat44"
-	"github.com/contiv/vpp/plugins/service/renderer/srv6"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	epmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/endpoints"
+	svcmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/service"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/service/config"
+	"github.com/Shivkb/contiv-vpp/plugins/service/processor"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer/ipv6route"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer/nat44"
+	"github.com/Shivkb/contiv-vpp/plugins/service/renderer/srv6"
 )
 
 // Plugin watches configuration of K8s resources (as reflected by KSR into ETCD)

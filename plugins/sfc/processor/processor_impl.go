@@ -22,16 +22,16 @@ import (
 	"go.ligato.io/cn-infra/v2/logging"
 	"go.ligato.io/cn-infra/v2/servicelabel"
 
-	"github.com/contiv/vpp/plugins/contivconf"
-	controller "github.com/contiv/vpp/plugins/controller/api"
-	extifmodel "github.com/contiv/vpp/plugins/crd/handler/externalinterface/model"
-	sfcmodel "github.com/contiv/vpp/plugins/crd/handler/servicefunctionchain/model"
-	"github.com/contiv/vpp/plugins/ipam"
-	"github.com/contiv/vpp/plugins/ipnet"
-	podmodel "github.com/contiv/vpp/plugins/ksr/model/pod"
-	"github.com/contiv/vpp/plugins/nodesync"
-	"github.com/contiv/vpp/plugins/podmanager"
-	"github.com/contiv/vpp/plugins/sfc/renderer"
+	"github.com/Shivkb/contiv-vpp/plugins/contivconf"
+	controller "github.com/Shivkb/contiv-vpp/plugins/controller/api"
+	extifmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/externalinterface/model"
+	sfcmodel "github.com/Shivkb/contiv-vpp/plugins/crd/handler/servicefunctionchain/model"
+	"github.com/Shivkb/contiv-vpp/plugins/ipam"
+	"github.com/Shivkb/contiv-vpp/plugins/ipnet"
+	podmodel "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/nodesync"
+	"github.com/Shivkb/contiv-vpp/plugins/podmanager"
+	"github.com/Shivkb/contiv-vpp/plugins/sfc/renderer"
 )
 
 // SFCProcessor implements SFCProcessorAPI.

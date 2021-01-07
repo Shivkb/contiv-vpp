@@ -15,8 +15,8 @@
 package datastore
 
 import (
-	"github.com/contiv/vpp/plugins/ksr/model/node"
-	pod2 "github.com/contiv/vpp/plugins/ksr/model/pod"
+	"github.com/Shivkb/contiv-vpp/plugins/ksr/model/node"
+	pod2 "github.com/Shivkb/contiv-vpp/plugins/ksr/model/pod"
 	"github.com/onsi/gomega"
 	"testing"
 )
